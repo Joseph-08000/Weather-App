@@ -1,0 +1,88 @@
+.navbar-toggler-icon {
+    background-color: white !important;
+  }
+
+  body {
+    background: linear-gradient( to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%
+      ),
+      url(img2.jpg);
+    background-size: cover;
+  }
+
+ .hov{
+  transition: ease-in-out 0.3s !important;
+ }
+
+ .hov:hover{
+  color: rgb(5, 188, 5) !important;
+ }
+
+ #input{ 
+  border: 3px solid black !important;
+  transition: ease-in-out 0.3s !important;
+ }
+
+ #input:hover{
+  border: 3px solid rgb(5, 188, 5) !important;
+ }
+
+
+.img{
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+  vertical-align:middle;
+}
+
+.wrapper{
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  line-height: 1.9;
+  margin-top: 40px;
+ 
+}
+.wrapper2{
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;
+  flex-direction: row-reverse;
+  margin-top: 40px;
+  line-height: 1.9;
+}
+.intro{
+  flex: 1;
+  text-align: center;
+}
+
+.log-con{
+  width: 30%;
+}
+.log-con-img{
+  padding: 12px;
+  object-fit: contain;
+}
+
+.log-con-form{
+  width: 50%;
+}
+
+.dropdown-item{
+  transition: ease-in-out 0.3s !important;
+}
+
+.dropdown-item:hover{
+  color: rgb(5, 188, 5) !important;
+  background-color: #171717 !important;
+}
+
+.success{
+  color: rgb(5, 188, 5) !important;
+
+}
